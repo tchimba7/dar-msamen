@@ -8,6 +8,7 @@ import {
 } from "@/app/[locale]/(auth)/actions";
 import { Card, CardDescription, CardTitle } from "@/components/ui/card";
 import { Locale, t } from "@/lib/i18n";
+import { isPhoneVerificationRequired } from "@/lib/verification-policy";
 
 type SignupVerificationPageProps = {
   params: Promise<{ locale: Locale }>;
@@ -27,6 +28,10 @@ export default async function SignupVerificationPage({
   const { email = "", sent, error, retry } = await searchParams;
   const normalizedEmail = email.trim().toLowerCase();
   const dict = t(locale);
+
+  if (!isPhoneVerificationRequired()) {
+    redirect(`/${locale}/connexion?registered=1`);
+  }
 
   if (!normalizedEmail || !normalizedEmail.includes("@")) {
     redirect(`/${locale}/inscription`);

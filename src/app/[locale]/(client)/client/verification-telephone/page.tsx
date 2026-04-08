@@ -6,6 +6,7 @@ import { getAuthSession } from "@/auth";
 import { Button } from "@/components/ui/button";
 import { Card, CardDescription, CardTitle } from "@/components/ui/card";
 import { Locale } from "@/lib/i18n";
+import { isPhoneVerificationRequired } from "@/lib/verification-policy";
 
 import { sendPhoneVerificationCodeAction, verifyPhoneCodeAction } from "../actions";
 
@@ -21,6 +22,10 @@ export default async function PhoneVerificationPage({
   const { locale } = await params;
   const { sent, verified, error, retry, channel } = await searchParams;
   const session = await getAuthSession();
+
+  if (!isPhoneVerificationRequired()) {
+    redirect(`/${locale}/client`);
+  }
 
   if (!session?.user || session.user.role !== "CLIENT") {
     redirect(`/${locale}/connexion`);

@@ -137,6 +137,7 @@ export async function registerAction(
         name: parsed.data.name,
         email: parsed.data.email,
         phone: normalizedPhone,
+        phoneVerifiedAt: phoneVerificationRequired ? null : new Date(),
         passwordHash: await hashPassword(parsed.data.password),
         role: "CLIENT",
       })
