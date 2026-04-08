@@ -1,0 +1,20 @@
+<svg width="768" height="768" viewBox="0 0 768 768" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="768" height="768" fill="#F2B65D"/>
+  <path d="M384 115C420 115 448 142 477 147C507 152 542 144 567 165C592 186 599 221 620 246C641 271 676 289 683 321C690 353 668 385 665 417C662 449 676 486 662 514C648 542 615 559 593 583C571 607 564 643 539 662C514 681 479 675 449 683C419 691 390 714 358 713C326 712 299 687 269 679C239 671 203 679 178 660C153 641 145 606 124 582C103 558 69 540 62 508C55 476 77 444 80 412C83 380 69 344 83 316C97 288 130 270 152 246C174 222 181 186 206 167C231 148 266 154 296 146C326 138 351 115 384 115Z" fill="#F4CC88"/>
+
+  <clipPath id="logo-photo-clip">
+    <rect x="258" y="208" width="252" height="186" />
+  </clipPath>
+  <image
+    href="/logo-msamen.png"
+    x="258"
+    y="208"
+    width="252"
+    height="186"
+    preserveAspectRatio="xMidYMid slice"
+    clip-path="url(#logo-photo-clip)"
+  />
+  <text x="384" y="516" text-anchor="middle" fill="#F9F9F7" font-family="cursive, serif" font-size="82" font-weight="700">Dar Msamen</text>
+  <text x="384" y="575" text-anchor="middle" fill="#FFFFFF" font-family="'Noto Sans Arabic', 'Segoe UI', sans-serif" font-size="53">النكهات التقليدية</text>
+  <text x="384" y="633" text-anchor="middle" fill="#FFFFFF" font-family="'Noto Sans Arabic', 'Segoe UI', sans-serif" font-size="53">المغربية</text>
+</svg>

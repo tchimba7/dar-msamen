@@ -1,0 +1,97 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1774745952017,
+      "tag": "0000_calm_ben_grimm",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1774820134139,
+      "tag": "0001_cloudy_stellaris",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1774855200000,
+      "tag": "0002_shiny_sale_modes",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1774859100000,
+      "tag": "0003_product_copy_and_materials",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1774863600000,
+      "tag": "0004_product_gallery_reviews_nutrition",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1774869000000,
+      "tag": "0005_order_status_events",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1774872600000,
+      "tag": "0006_phone_verification_otp",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1774906500000,
+      "tag": "0007_product_recommendations",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "7",
+      "when": 1774909800000,
+      "tag": "0008_order_delivery_delayed",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "7",
+      "when": 1774922400000,
+      "tag": "0009_user_profile_changes",
+      "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "7",
+      "when": 1774933200000,
+      "tag": "0010_password_reset_codes",
+      "breakpoints": true
+    },
+    {
+      "idx": 11,
+      "version": "7",
+      "when": 1775001600000,
+      "tag": "0011_product_arabic_translations",
+      "breakpoints": true
+    },
+    {
+      "idx": 12,
+      "version": "7",
+      "when": 1775613101628,
+      "tag": "0012_deep_jazinda",
+      "breakpoints": true
+    }
+  ]
+}

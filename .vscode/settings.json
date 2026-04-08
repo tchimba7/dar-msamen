@@ -1,0 +1,11 @@
+{
+  "files.associations": {
+    "drizzle/*.sql": "plaintext",
+    "drizzle/**/*.sql": "plaintext",
+    "**/drizzle/*.sql": "plaintext"
+  },
+  "sql.validate.enable": false,
+  "problems.exclude": {
+    "**/drizzle/*.sql": true
+  }
+}
