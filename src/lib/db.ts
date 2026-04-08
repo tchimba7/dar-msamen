@@ -12,6 +12,9 @@ const requiresSsl =
 const pool = new Pool({
   connectionString: databaseUrl,
   ssl: requiresSsl ? { rejectUnauthorized: false } : undefined,
+  max: 1,
+  idleTimeoutMillis: 5_000,
+  connectionTimeoutMillis: 10_000,
 });
 
 export const db = drizzle(pool, { schema });
